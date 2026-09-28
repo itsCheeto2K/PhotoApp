@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Nguyễn Minh Quân",
+      "email": "minhquan.dev@gmail.com",
+      "desc": "Kỹ sư phần mềm Android cao cấp với 5 năm kinh nghiệm chuyên sâu về kiến trúc ứng dụng di động, Jetpack Compose và tối ưu hóa hiệu năng.",
+      "avatar_url": "https://api.dicebear.com/7.x/bottts/png?seed=MinhQuan",
+      "hobby": "Chơi đàn Guitar, Leo núi, Đóng góp mã nguồn mở"
+    },
+    {
+      "id": 2,
+      "username": "Trần Thu Trang",
+      "email": "thutrang.design@gmail.com",
+      "desc": "Chuyên viên thiết kế giao diện UI/UX và đam mê nghiên cứu trải nghiệm người dùng trên các nền tảng thiết bị di động thông minh.",
+      "avatar_url": "https://api.dicebear.com/7.x/lorelei/png?seed=ThuTrang",
+      "hobby": "Vẽ tranh kỹ thuật số, Pha chế cà phê, Đọc sách"
+    },
+    {
+      "id": 3,
+      "username": "Lê Hoàng Nam",
+      "email": "hoangnam.tech@gmail.com",
+      "desc": "Lập trình viên Backend đam mê hệ thống phân tán chịu tải cao, Microservices và phát triển đa nền tảng với Kotlin Multiplatform.",
+      "avatar_url": "https://api.dicebear.com/7.x/adventurer/png?seed=HoangNam",
+      "hobby": "Chơi cờ vua, Chạy Marathon, Nghe Podcast công nghệ"
+    },
+    {
+      "id": 4,
+      "username": "Phạm Thanh Hương",
+      "email": "thanhhuong.data@gmail.com",
+      "desc": "Kỹ sư khoa học dữ liệu và trí tuệ nhân tạo (AI), nghiên cứu các mô hình học sâu và thị giác máy tính ứng dụng trên điện thoại.",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/png?seed=ThanhHuong",
+      "hobby": "Thiên văn học, Chơi đàn Violin, Du lịch khám phá"
+    },
+    {
+      "id": 5,
+      "username": "Vũ Đức Anh",
+      "email": "ducanh.cloud@gmail.com",
+      "desc": "Chuyên gia DevOps & Điện toán đám mây, tự động hóa quy trình CI/CD, đóng gói Docker và bảo mật hệ thống ứng dụng di động.",
+      "avatar_url": "https://api.dicebear.com/7.x/pixel-art/png?seed=DucAnh",
+      "hobby": "Leo núi nhân tạo, Nhiếp ảnh đường phố, Chơi game"
+    },
+    {
+      "id": 6,
+      "username": "Đặng Bảo Long",
+      "email": "baolong.pm@gmail.com",
+      "desc": "Quản lý sản phẩm (Product Manager) kết nối giữa đội ngũ kỹ thuật, nhu cầu người dùng và định hướng chiến lược phát triển sản phẩm.",
+      "avatar_url": "https://api.dicebear.com/7.x/fun-emoji/png?seed=BaoLong",
+      "hobby": "Nấu ăn, Đi phượt, Tập Yoga rèn luyện sức khỏe"
+    }
+  ]
+}

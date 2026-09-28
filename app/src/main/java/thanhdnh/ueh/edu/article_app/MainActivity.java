@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
   private AdapterView.OnItemClickListener onitemclick = new AdapterView.OnItemClickListener() {
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-      Intent intent = new Intent(getBaseContext(), ViewArticleActivity.class);
+      Intent intent = new Intent(getBaseContext(), ViewUserActivity.class);
       intent.putExtra("id", gridview.getAdapter().getItemId(position));
       startActivity(intent);
     }
@@ -24,11 +24,12 @@ public class MainActivity extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-    getSupportActionBar().hide();
+    if (getSupportActionBar() != null) {
+      getSupportActionBar().hide();
+    }
 
     gridview = findViewById(R.id.gridview);
-    new ArticleData(getBaseContext(), gridview).loadData("https://raw.githubusercontent.com/thanhdnh/json/main/products.json", this);
+    new UserData(getBaseContext(), gridview).loadData("", this);
     gridview.setOnItemClickListener(onitemclick);
   }
-
 }
